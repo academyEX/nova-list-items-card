@@ -1,5 +1,5 @@
 {
-    "name": "academyex/nova-list-items-card",
+    "name": "pixelfusion/nova-list-items-card",
     "description": "A Laravel Nova card.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AcademyEX\\NovaListItemsCard\\": "src/"
+            "Pixelfusion\\NovaListItemsCard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AcademyEX\\NovaListItemsCard\\CardServiceProvider"
+                "Pixelfusion\\NovaListItemsCard\\CardServiceProvider"
             ]
         }
     },

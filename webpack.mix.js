@@ -6,4 +6,4 @@ mix
   .vue({ version: 3 })
   .js('resources/js/card.js', 'js')
   .sass('resources/sass/card.scss', 'css')
-  .nova('academyex/nova-list-items-card')
+  .nova('pixelfusion/nova-list-items-card')
