@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelfusion\NovaListItemsCard;
+namespace AcademyEX\NovaListItemsCard;
 
 use Laravel\Nova\Card;
 
@@ -11,7 +11,9 @@ class NovaListItemsCard extends Card
      *
      * @var string
      */
-    public $width = 'full';
+    public $width = parent::FULL_WIDTH;
+
+    public $height = parent::DYNAMIC_HEIGHT;
 
     public array $items = [];
 
@@ -34,5 +36,4 @@ class NovaListItemsCard extends Card
     {
         return $this->withMeta(['items' => $this->items]);
     }
-
 }

@@ -1,23 +1,23 @@
 {
-    "name": "pixelfusion/nova-list-items-card",
-    "description": "A Laravel Nova card.",
+    "name": "academyex/nova-list-items-card",
+    "description": "A Laravel Nova List Items Card.",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.2"
+        "php": "~8.0"
     },
     "autoload": {
         "psr-4": {
-            "Pixelfusion\\NovaListItemsCard\\": "src/"
+            "AcademyEX\\NovaListItemsCard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pixelfusion\\NovaListItemsCard\\CardServiceProvider"
+                "AcademyEX\\NovaListItemsCard\\CardServiceProvider"
             ]
         }
     },

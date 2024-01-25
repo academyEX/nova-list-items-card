@@ -11,9 +11,5 @@ export default {
     props: [
         'card',
     ],
-
-    mounted() {
-        //
-    },
 }
 </script>
